@@ -5,7 +5,7 @@ python-multipart
 
 # --- Image Handling ---
 pillow
-numpy==1.26.4
+numpy
 
 # --- Model Runtime ---
-tensorflow==2.15.1
+tensorflow
