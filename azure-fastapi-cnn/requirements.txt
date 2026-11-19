@@ -1,0 +1,14 @@
+# --- Azure Functions + web framework ---
+azure-functions
+fastapi
+python-multipart      # required by FastAPI for file uploads
+
+# --- Image handling ---
+pillow
+numpy==1.26.4         # TensorFlow 2.15 is not compatible with NumPy 2.x
+
+# --- Model runtime ---
+# CPU-only TensorFlow (smaller than the full 'tensorflow' package).
+# IMPORTANT: use the SAME TensorFlow/Keras version you trained the model with.
+# TF 2.15 supports Python 3.9-3.11 (use Python 3.11 on Azure).
+tensorflow-cpu==2.15.0
